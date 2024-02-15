@@ -1,0 +1,19 @@
+{
+  "name": "app-salon_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "app salon el backend mevn",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "billmonzon",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2"
+  }
+}
