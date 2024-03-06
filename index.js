@@ -13,6 +13,8 @@ const app = express()
 //conectar a la DB
 db()
 
+//LEER DATOS via body
+app.use(express.json())
 
 //def ruta 
 app.use('/api/services', servicesRoutes)
